@@ -13,3 +13,4 @@ if (!(Get-AzureEnvironment -Name "AzureGovernmentCloud")) {
 }
 
 Write-Output "`r`nAzureGovernmentCloud Environment successfully added`r`n"
+Get-AzureEnvironment -Name "AzureGovernmentCloud"
